@@ -81,15 +81,13 @@ public class Main { public static void main(String[] args) {
     }    public static void task6 () {
             System.out.println("Задача 6");
             byte bananas = 5;
-            int milk =200;
+            int milk =2;
             byte iceCream = 2;
             byte raweEggs = 4;
             int totalCoctel = bananas * 80 + milk * 105 + iceCream * 100 + raweEggs * 70;
             System.out.println("вес коктеля " + totalCoctel + " граммах.");
             float totalCoctel2 = totalCoctel / 1000f;
             System.out.println("вес коктеля " +totalCoctel2 + " кг");
-
-
     }
     public static void task7 () {
         System.out.println("Задача 7");
